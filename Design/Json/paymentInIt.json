@@ -1,0 +1,1069 @@
+{
+    "transactionDetails": {
+        "amount": 445.0,
+        "currencyCode": "THB",
+        "orderId": "2200004354",
+        "description": "Men's Surfing Long Sleeve UV Protection Top T-Shirt 500 - Black"
+    },
+    "psp2c2p": {
+        "channelCategories": [
+            {
+                "sequenceNo": 1,
+                "name": "Global Card",
+                "code": "GCARD",
+                "groups": [
+                    {
+                        "sequenceNo": 1,
+                        "name": "Credit Card Payment",
+                        "code": "CC",
+                        "details": {
+                            "totalChannel": 4,
+                            "name": "Credit Card Payment",
+                            "channels": [
+                                {
+                                    "sequenceNo": 1,
+                                    "name": "MasterCard",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/master.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/master.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "CC"
+                                        },
+                                        "input": {
+                                            "cardNo": "M",
+                                            "expiryDate": "M",
+                                            "securityCode": "M",
+                                            "name": "O",
+                                            "email": "O",
+                                            "pin": "I"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 2,
+                                    "name": "VISA",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/visa.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/visa.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "CC"
+                                        },
+                                        "input": {
+                                            "cardNo": "M",
+                                            "expiryDate": "M",
+                                            "securityCode": "M",
+                                            "name": "O",
+                                            "email": "O",
+                                            "pin": "I"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 3,
+                                    "name": "JCB",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/jcb.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/jcb.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "CC"
+                                        },
+                                        "input": {
+                                            "cardNo": "M",
+                                            "expiryDate": "M",
+                                            "securityCode": "M",
+                                            "name": "O",
+                                            "email": "O",
+                                            "pin": "I"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 4,
+                                    "name": "China UnionPay",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/unionpay.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/unionpay.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "CC"
+                                        },
+                                        "input": {
+                                            "cardNo": "M",
+                                            "expiryDate": "M",
+                                            "securityCode": "M",
+                                            "name": "O",
+                                            "email": "O",
+                                            "pin": "I"
+                                        }
+                                    },
+                                    "isDown": false
+                                }
+                            ],
+                            "validation": {
+                                "cardNo": {
+                                    "prefixes": [
+                                        "51",
+                                        "52",
+                                        "53",
+                                        "54",
+                                        "55",
+                                        "2221",
+                                        "2222",
+                                        "2223",
+                                        "2224",
+                                        "2225",
+                                        "2226",
+                                        "2227",
+                                        "2228",
+                                        "2229",
+                                        "223",
+                                        "224",
+                                        "225",
+                                        "226",
+                                        "227",
+                                        "228",
+                                        "229",
+                                        "23",
+                                        "24",
+                                        "25",
+                                        "26",
+                                        "270",
+                                        "271",
+                                        "2720",
+                                        "4",
+                                        "35",
+                                        "62",
+                                        "81"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "sequenceNo": 2,
+                "name": "Digital Payment",
+                "code": "DPAY",
+                "groups": [
+                    {
+                        "sequenceNo": 1,
+                        "name": "Wallet Payment",
+                        "code": "EWALLET",
+                        "details": {
+                            "totalChannel": 6,
+                            "name": "Wallet Payment",
+                            "channels": [
+                                {
+                                    "sequenceNo": 2,
+                                    "name": "Alipay",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/alipay.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/alipay.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "ALIPAY"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "I",
+                                            "accountNo": "I"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 3,
+                                    "name": "Wechat Pay",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/wechat.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/wechat.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "WECHAT"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "I",
+                                            "accountNo": "I"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 7,
+                                    "name": "Line Pay",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/line.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/line.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "LINE"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O",
+                                            "accountNo": "I"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 9,
+                                    "name": "TrueMoney",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/tmw.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/tmw.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "TRUEMONEY"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "M"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 28,
+                                    "name": "ShopeePay",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/shppay.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/shppay.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "SHPPAY"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 1,
+                                    "name": "Dolfin",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/dolfin.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/dolfin.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "DOLFIN"
+                                        },
+                                        "input": {
+                                            "name": "I",
+                                            "email": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "sequenceNo": 3,
+                "name": "QR Payment",
+                "code": "QR",
+                "groups": [
+                    {
+                        "sequenceNo": 1,
+                        "name": "Thai QR Payment",
+                        "code": "THQR",
+                        "details": {
+                            "totalChannel": 2,
+                            "name": "Thai QR Payment",
+                            "channels": [
+                                {
+                                    "sequenceNo": 1,
+                                    "name": "PromptPay",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/ppqr.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/ppqr.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "PPQR"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 3,
+                                    "name": "GrabPay",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/gpthqr.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/gpthqr.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "GPTHQR"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "sequenceNo": 4,
+                "name": "Over The Counter",
+                "code": "COUNTER",
+                "groups": [
+                    {
+                        "sequenceNo": 1,
+                        "name": "Bank Counter",
+                        "code": "BCTR",
+                        "details": {
+                            "totalChannel": 5,
+                            "name": "Bank Counter",
+                            "channels": [
+                                {
+                                    "sequenceNo": 10,
+                                    "name": "Kasikorn Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/KBANK.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/KBANK.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "KBANK",
+                                            "agentChannelCode": "BANKCOUNTER"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 20,
+                                    "name": "The Siam Commercial Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/SCB.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/SCB.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "SCB",
+                                            "agentChannelCode": "BANKCOUNTER"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 30,
+                                    "name": "Bangkok Bank PCL",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/BBL.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/BBL.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "BBL",
+                                            "agentChannelCode": "BANKCOUNTER"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 40,
+                                    "name": "Krung Thai Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/KTB.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/KTB.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "KTB",
+                                            "agentChannelCode": "BANKCOUNTER"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 50,
+                                    "name": "Bank of Ayudhya",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/BAY.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/BAY.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "BAY",
+                                            "agentChannelCode": "BANKCOUNTER"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "sequenceNo": 2,
+                        "name": "Pay at Counter",
+                        "code": "OTCTR",
+                        "details": {
+                            "totalChannel": 6,
+                            "name": "Pay at Counter",
+                            "channels": [
+                                {
+                                    "sequenceNo": 100,
+                                    "name": "BIGC",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/BIGC.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/BIGC.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "BIGC",
+                                            "agentChannelCode": "OVERTHECOUNTER"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 100,
+                                    "name": "Boonterm",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/BOONTERM.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/BOONTERM.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "BOONTERM",
+                                            "agentChannelCode": "OVERTHECOUNTER"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 100,
+                                    "name": "CenPay by Central",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/CENPAY.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/CENPAY.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "CENPAY",
+                                            "agentChannelCode": "OVERTHECOUNTER"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 100,
+                                    "name": "Pay at Post",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/PAYATPOST.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/PAYATPOST.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "PAYATPOST",
+                                            "agentChannelCode": "OVERTHECOUNTER"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 100,
+                                    "name": "Tesco lotus",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/TESCO.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/TESCO.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "TESCO",
+                                            "agentChannelCode": "OVERTHECOUNTER"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 100,
+                                    "name": "True Money",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/TRUEMONEY.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/TRUEMONEY.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "TRUEMONEY",
+                                            "agentChannelCode": "OVERTHECOUNTER"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "sequenceNo": 5,
+                "name": "ATM / Kiosk",
+                "code": "SSM",
+                "groups": [
+                    {
+                        "sequenceNo": 1,
+                        "name": "ATM",
+                        "code": "ATM",
+                        "details": {
+                            "totalChannel": 6,
+                            "name": "ATM",
+                            "channels": [
+                                {
+                                    "sequenceNo": 10,
+                                    "name": "Kasikorn Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/KBANK.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/KBANK.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "KBANK",
+                                            "agentChannelCode": "ATM"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 20,
+                                    "name": "The Siam Commercial Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/SCB.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/SCB.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "SCB",
+                                            "agentChannelCode": "ATM"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 30,
+                                    "name": "Bangkok Bank PCL",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/BBL.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/BBL.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "BBL",
+                                            "agentChannelCode": "ATM"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 40,
+                                    "name": "Krung Thai Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/KTB.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/KTB.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "KTB",
+                                            "agentChannelCode": "ATM"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 50,
+                                    "name": "Bank of Ayudhya",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/BAY.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/BAY.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "BAY",
+                                            "agentChannelCode": "ATM"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 100,
+                                    "name": "Government Savings Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/GSB.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/GSB.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "GSB",
+                                            "agentChannelCode": "ATM"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "sequenceNo": 6,
+                "name": "Internet / Mobile Banking",
+                "code": "IMBANK",
+                "groups": [
+                    {
+                        "sequenceNo": 1,
+                        "name": "Internet / Mobile Banking",
+                        "code": "IMBANK",
+                        "details": {
+                            "totalChannel": 5,
+                            "name": "Internet / Mobile Banking",
+                            "channels": [
+                                {
+                                    "sequenceNo": 20,
+                                    "name": "The Siam Commercial Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/SCB.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/SCB.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "SCB",
+                                            "agentChannelCode": "IBANKING"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 30,
+                                    "name": "Bangkok Bank PCL",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/BBL.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/BBL.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "BBL",
+                                            "agentChannelCode": "IBANKING"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 40,
+                                    "name": "Krung Thai Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/KTB.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/KTB.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "KTB",
+                                            "agentChannelCode": "IBANKING"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 50,
+                                    "name": "Bank of Ayudhya",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/BAY.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/BAY.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "BAY",
+                                            "agentChannelCode": "IBANKING"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 100,
+                                    "name": "Government Savings Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/GSB.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/GSB.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "GSB",
+                                            "agentChannelCode": "IBANKING"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "sequenceNo": 7,
+                "name": "Web pay / Direct Debit",
+                "code": "WEBPAY",
+                "groups": [
+                    {
+                        "sequenceNo": 1,
+                        "name": "Web pay / Direct Debit",
+                        "code": "WEBPAY",
+                        "details": {
+                            "totalChannel": 8,
+                            "name": "Web pay / Direct Debit",
+                            "channels": [
+                                {
+                                    "sequenceNo": 10,
+                                    "name": "Kasikorn Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/KBANK.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/KBANK.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "KBANK",
+                                            "agentChannelCode": "WEBPAY"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 20,
+                                    "name": "The Siam Commercial Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/SCB.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/SCB.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "SCB",
+                                            "agentChannelCode": "WEBPAY"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 30,
+                                    "name": "Bangkok Bank PCL",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/BBL.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/BBL.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "BBL",
+                                            "agentChannelCode": "WEBPAY"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 40,
+                                    "name": "Krung Thai Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/KTB.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/KTB.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "KTB",
+                                            "agentChannelCode": "WEBPAY"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 50,
+                                    "name": "Bank of Ayudhya",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/BAY.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/BAY.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "BAY",
+                                            "agentChannelCode": "WEBPAY"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 60,
+                                    "name": "TMBThanachart Bank Public Company Limited",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/TMB.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/TMB.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "TMB",
+                                            "agentChannelCode": "WEBPAY"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 70,
+                                    "name": "Thanachart Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/TBANK.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/TBANK.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "TBANK",
+                                            "agentChannelCode": "WEBPAY"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 90,
+                                    "name": "United Overseas Bank",
+                                    "currencyCodes": [
+                                        "THB"
+                                    ],
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/UOB.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/UOB.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "123",
+                                            "agentCode": "UOB",
+                                            "agentChannelCode": "WEBPAY"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O",
+                                            "mobileNo": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "onepay": {
+        "active": true
+    },
+    "status": true,
+    "errorCode": "P000",
+    "errorDescription": "Success."
+}
