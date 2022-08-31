@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct Section {
+    var expanded: Bool!
+    
+    init(expanded: Bool) {
+        self.expanded = expanded
+    }
+}

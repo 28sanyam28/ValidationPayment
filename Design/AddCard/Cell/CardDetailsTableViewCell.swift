@@ -29,10 +29,12 @@ class CardDetailsTableViewCell: UITableViewCell, UITextFieldDelegate {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        self.mainView.layer.cornerRadius = 20
+        self.mainView.layer.cornerRadius = 10
         cardNumberTextField.delegate = self
         cvvTextField.delegate = self
         nameTextField.delegate = self
+        dateAndMonthTextField.delegate = self
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -56,11 +58,13 @@ class CardDetailsTableViewCell: UITableViewCell, UITextFieldDelegate {
                 return false
             }
 
+            
 
             let NewLength = (cardNumberTextField.text?.count)! + string.count - range.length
+            if cardNumberTextField.text != "" {
+                UserDefaults.standard.set(cardNumberTextField.text, forKey: "CardNumber")
+            }
             return NewLength <= 16
-
-
           }
         if textField == cvvTextField {
                         let allowedCharacters = "1234567890"
@@ -84,8 +88,30 @@ class CardDetailsTableViewCell: UITableViewCell, UITextFieldDelegate {
                         let alphabet = allowedCharacterSet.isSuperset(of: typedCharacterSet)
                         return alphabet
         }
+        if textField == dateAndMonthTextField {
+            guard let text = textField.text else { return true }
+                let newLength = text.count + string.count - range.length
+                let characterSet = CharacterSet(charactersIn: string)
+            if text.count == 2, !string.isEmpty {
+                textField.text = text + "/"
+            }
+                return CharacterSet.decimalDigits.isSuperset(of: characterSet) && newLength <= 5
+
+        }
         else {
             return false
         }
       }
+}
+extension CardDetailsTableViewCell {
+    func validCheck(card: String, date: String) -> Bool
+    {
+        cardNumberTextField.text = card
+        dateAndMonthTextField.text = date
+        if card == "" && date == "" {
+            print("Empty")
+            return false
+        }
+        return true
+    }
 }

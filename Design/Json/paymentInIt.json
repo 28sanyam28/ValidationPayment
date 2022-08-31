@@ -1,6 +1,7 @@
+[
 {
     "transactionDetails": {
-        "amount": 445.0,
+        "amount": "445.0",
         "currencyCode": "THB",
         "orderId": "2200004354",
         "description": "Men's Surfing Long Sleeve UV Protection Top T-Shirt 500 - Black"
@@ -1057,6 +1058,56 @@
                         }
                     }
                 ]
+            },
+            {
+                "sequenceNo": 8,
+                "name": "HAVE A GIFTCARD?",
+                "code": "",
+                "groups": [
+                    {
+                        "sequenceNo": 1,
+                        "name": "Thai QR Payment",
+                        "code": "THQR",
+                        "details": {
+                            "totalChannel": 2,
+                            "name": "Thai QR Payment",
+                            "channels": [
+                                {
+                                    "sequenceNo": 1,
+                                    "name": "PromptPay",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/ppqr.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/ppqr.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "PPQR"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                },
+                                {
+                                    "sequenceNo": 3,
+                                    "name": "GrabPay",
+                                    "iconUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/icon/gpthqr.png",
+                                    "logoUrl": "https://d27uu9vmlo4gwh.cloudfront.net/images/v4/images/logo/gpthqr.png",
+                                    "payment": {
+                                        "code": {
+                                            "channelCode": "GPTHQR"
+                                        },
+                                        "input": {
+                                            "name": "O",
+                                            "email": "O"
+                                        }
+                                    },
+                                    "isDown": false
+                                }
+                            ]
+                        }
+                    }
+                ]
             }
         ]
     },
@@ -1067,3 +1118,4 @@
     "errorCode": "P000",
     "errorDescription": "Success."
 }
+]
