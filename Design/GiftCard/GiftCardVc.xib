@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="RobotoCondensed-Bold.ttf">
-            <string>RobotoCondensed-Bold</string>
-        </array>
-        <array key="roboto-condensed.regular.ttf">
+        <array key="RobotoCondensed-Regular.ttf">
             <string>RobotoCondensed-Regular</string>
+        </array>
+        <array key="roboto-condensed.bold.ttf">
+            <string>RobotoCondensed-Bold</string>
         </array>
     </customFonts>
     <objects>
@@ -37,7 +37,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIFT CARD DETAILS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54E-s5-Vm5">
-                                    <rect key="frame" x="20" y="13" width="344" height="24"/>
+                                    <rect key="frame" x="20" y="14.5" width="344" height="21.5"/>
                                     <fontDescription key="fontDescription" name="RobotoCondensed-Bold" family="Roboto Condensed" pointSize="18"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
@@ -87,26 +87,17 @@
                                     </constraints>
                                 </view>
                                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="jrA-ud-OzJ">
-                                    <rect key="frame" x="0.0" y="40" width="414" height="400"/>
+                                    <rect key="frame" x="0.0" y="40" width="414" height="478"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="400" id="e5o-FO-Jkg"/>
-                                    </constraints>
                                 </tableView>
                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RC3-BZ-UAK">
-                                    <rect key="frame" x="20" y="460" width="374" height="80"/>
+                                    <rect key="frame" x="20" y="538" width="374" height="80"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIFT CARDS 800 THB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KNj-sq-20d">
-                                            <rect key="frame" x="20" y="31.5" width="154" height="17"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kH8-bv-OcG">
-                                            <rect key="frame" x="194" y="15" width="160" height="50"/>
+                                            <rect key="frame" x="204" y="15" width="150" height="50"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="160" id="FFX-Cb-xr5"/>
+                                                <constraint firstAttribute="width" constant="150" id="FFX-Cb-xr5"/>
                                                 <constraint firstAttribute="height" constant="50" id="itu-tK-81n"/>
                                             </constraints>
                                             <color key="tintColor" systemColor="labelColor"/>
@@ -124,6 +115,12 @@
                                                 <action selector="GiftCardButtonTapped:" destination="-1" eventType="touchUpInside" id="Hfd-BZ-0aK"/>
                                             </connections>
                                         </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIFT CARDS 800 THB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KNj-sq-20d">
+                                            <rect key="frame" x="20" y="32" width="164" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" red="0.91867607829999998" green="0.94955247639999996" blue="0.97673755880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
@@ -136,7 +133,7 @@
                                     </constraints>
                                 </view>
                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="15S-IX-W1F">
-                                    <rect key="frame" x="20" y="560" width="374" height="80"/>
+                                    <rect key="frame" x="20" y="638" width="374" height="80"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have reached the limit of gift cards for this order, please select another payment method to pay the remaining amount." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlB-pv-2rR">
                                             <rect key="frame" x="20" y="10" width="334" height="60"/>
@@ -149,9 +146,9 @@
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="TlB-pv-2rR" secondAttribute="trailing" constant="20" id="1ja-is-gln"/>
                                         <constraint firstItem="TlB-pv-2rR" firstAttribute="top" secondItem="15S-IX-W1F" secondAttribute="top" constant="10" id="Icx-WG-8WT"/>
-                                        <constraint firstAttribute="height" constant="80" id="K3U-ob-aXG"/>
                                         <constraint firstAttribute="bottom" secondItem="TlB-pv-2rR" secondAttribute="bottom" constant="10" id="ghz-Za-PjV"/>
                                         <constraint firstItem="TlB-pv-2rR" firstAttribute="leading" secondItem="15S-IX-W1F" secondAttribute="leading" constant="20" id="kmZ-mo-cnw"/>
+                                        <constraint firstAttribute="height" constant="80" id="m2A-hB-4oO"/>
                                     </constraints>
                                 </view>
                             </subviews>
@@ -168,6 +165,7 @@
                                 <constraint firstAttribute="trailing" secondItem="VZZ-R0-chL" secondAttribute="trailing" id="em5-e2-bBv"/>
                                 <constraint firstItem="VZZ-R0-chL" firstAttribute="top" secondItem="q7r-5H-dDS" secondAttribute="top" id="mi3-Yp-s1c"/>
                                 <constraint firstItem="RC3-BZ-UAK" firstAttribute="top" secondItem="jrA-ud-OzJ" secondAttribute="bottom" constant="20" id="n4U-7B-Yue"/>
+                                <constraint firstAttribute="bottom" secondItem="15S-IX-W1F" secondAttribute="bottom" constant="50" id="ncr-92-twI"/>
                                 <constraint firstItem="VZZ-R0-chL" firstAttribute="leading" secondItem="q7r-5H-dDS" secondAttribute="leading" id="zN7-tg-ghX"/>
                             </constraints>
                         </view>
@@ -192,7 +190,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pnU-Lu-tYZ" secondAttribute="trailing" id="SHw-WQ-FAT"/>
                 <constraint firstItem="pnU-Lu-tYZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="f5p-b7-7ft"/>
             </constraints>
-            <point key="canvasLocation" x="313" y="64"/>
+            <point key="canvasLocation" x="-212" y="82"/>
         </view>
     </objects>
     <resources>

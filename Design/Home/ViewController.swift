@@ -9,13 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
     var sections = [
-        Section(expanded: false),
-        Section(expanded: false),
-        Section(expanded: false),
-        Section(expanded: false),
-        Section(expanded: false),
-        Section(expanded: false),
-        Section(expanded: false),
         Section(expanded: false)
     ]
     @IBOutlet var tableView: UITableView!
@@ -65,7 +58,7 @@ class ViewController: UIViewController {
     
     func setupHomePage() {
         tableView.backgroundColor = Constant.Colors.colorF4F4F4
-        registerCells()
+//        registerCells()
         json()
         headerViewSetup()
     }
@@ -176,6 +169,7 @@ extension ViewController {
             
             UserDefaults.standard.set(WebName, forKey: "WebNames")
         }
+        showon()
     }
 }
 
@@ -516,4 +510,23 @@ extension ViewController: GlobalCardsCellDelegate {
 //            print(self.names ?? [])
 //        }
 //    }
+    func showon() {
+        if self.channelCategory?.count == self.sections.count {
+            registerCells()
+        }
+        else {
+            let difference = self.channelCategory!.count - self.sections.count
+            if difference > 0 {
+                for i in 0...difference-1  {
+                    sections.insert(contentsOf: [Section(expanded: false)], at: i)
+                }
+                if self.channelCategory?.count == self.sections.count {
+                        registerCells()
+                }
+            }
+            else {
+                print("Ghar Ja")
+            }
+        }
+    }
 }

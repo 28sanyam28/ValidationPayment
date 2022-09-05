@@ -71,4 +71,7 @@ extension GiftCardVc {
               tableView.deleteRows(at: [IndexPath(row: indexpath.row, section: 0)], with: .left)
               tableView.endUpdates()
     }
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+            cell.layoutIfNeeded()
+    }
 }

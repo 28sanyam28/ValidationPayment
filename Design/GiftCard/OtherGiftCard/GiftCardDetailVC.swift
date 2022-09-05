@@ -71,6 +71,7 @@ extension GiftCardDetailVC {
         upperTextField.clearButtonMode = UITextField.ViewMode.whileEditing
         upperTextField.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         upperTextField.delegate = self
+        upperTextField.keyboardType = .numberPad
         self.upperView.addSubview(upperTextField)
     }
     func lowerText() {
@@ -81,11 +82,13 @@ extension GiftCardDetailVC {
         lowerTextField.clearButtonMode = UITextField.ViewMode.whileEditing
         lowerTextField.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         lowerTextField.delegate = self
+        lowerTextField.keyboardType = .numberPad
         self.lowerView.addSubview(lowerTextField)
       }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if textField == upperTextField {
+            upperTextField.becomeFirstResponder()
                     let allowedCharacters = "1234567890"
                     let allowedCharacterSet = CharacterSet(charactersIn: allowedCharacters)
                     let typedCharacterSet = CharacterSet(charactersIn: string)
@@ -102,6 +105,7 @@ extension GiftCardDetailVC {
             return NewLength <= 16
           }
         if textField == lowerTextField {
+            lowerTextField.becomeFirstResponder()
                         let allowedCharacters = "1234567890"
                         let allowedCharacterSet = CharacterSet(charactersIn: allowedCharacters)
                         let typedCharacterSet = CharacterSet(charactersIn: string)
